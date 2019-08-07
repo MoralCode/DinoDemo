@@ -1,0 +1,26 @@
+#game {
+    position: relative;
+    height: 200px;
+    background-color: whitesmoke
+}
+
+#dino {
+     display: inline-block;
+    width: 20px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    transition: bottom .5s;
+}
+
+.obstacle {
+    display: inline-block;
+    width: 20px;
+    height: 40px;
+    background-color: wheat;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
